@@ -305,3 +305,125 @@ ul a{
     color: white;
     margin-right: 12px;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Navbar Adjustments */
+    .navbar {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .nav-search {
+        order: 3;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .nav-address,
+    .language,
+    .nav-signin,
+    .nav-returns {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    /* Panel Adjustments */
+    .panel {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    .panel-ops {
+        display: none;
+    }
+
+    /* Shop Section */
+    .shop-section {
+        padding: 0 10px;
+    }
+
+    .box {
+        width: 48%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .box-image {
+        height: 200px;
+    }
+
+    /* Footer Adjustments */
+    .foot-panel2 {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .foot-panel2 ul {
+        width: 45%;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Navbar Elements */
+    .nav-address,
+    .language,
+    .nav-returns {
+        display: none;
+    }
+
+    /* Search Bar Optimization */
+    .nav-search {
+        width: 85%;
+    }
+
+    /* Shop Section */
+    .box {
+        width: 100%;
+    }
+
+    .box-image {
+        height: 250px;
+    }
+
+    /* Footer Adjustments */
+    .foot-panel2 ul {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .foot-panel4 {
+        height: auto;
+        padding: 10px;
+    }
+
+    .hero-section {
+        height: 200px;
+    }
+
+    .hero-note {
+        font-size: 0.7rem;
+        padding: 5px;
+    }
+}
+
+/* General Mobile Optimization */
+@media screen and (max-width: 768px) {
+    .nav-cart i {
+        font-size: 24px;
+    }
+
+    .nav-cart {
+        font-size: 0.75rem;
+    }
+
+    .logo,
+    .logo1 {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
