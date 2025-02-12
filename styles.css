@@ -153,6 +153,12 @@ span{
 .panel-all{
     padding: 10px;
     width: 50px;
+    text-align: center;
+}
+
+.panel-all a{
+    text-decoration: none;
+    color: white;
 }
 
 .panel-ops{
@@ -160,16 +166,23 @@ span{
     font-size: 0.85rem;
 }
 
-.panel-ops p{
+.panel-ops a{
     display: inline;
     margin-left: 15px;
     padding : 10px;
+    text-decoration: none;
+    color: white;
 }
 
 .panel-deals{
     font-size: 0.9rem;
     font-weight: 700;
     padding: 10px;
+}
+
+.panel-deals a{
+    text-decoration: none;
+    color: white;
 }
 
 /* Main Section CSS */
@@ -227,9 +240,14 @@ span{
     margin-right: 1rem;
 }
 
-.box-content p{
+.content{
     color: #007185;
     margin-top: 5px;
+    text-decoration: none;
+}
+
+.box:hover{
+    transform: scale(1.02);
 }
 
 /* Footer CSS */
